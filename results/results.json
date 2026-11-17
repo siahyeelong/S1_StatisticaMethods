@@ -1,0 +1,32 @@
+{
+    "1a": {
+        "gamma": "number",
+        "sigma_gamma": "number",
+        "chi2": "number",
+        "ndof": "integer",
+        "p-value": "number"
+    },
+    "1b": {
+        "A": "file",
+        "B": "file",
+        "C": "file"
+    },
+    "1c": {
+        "lower": "number",
+        "upper": "number"
+    },
+    "2": {
+        "error_vs_k": "file"
+    },
+    "3a": {
+        "coverage": "file"
+    },
+    "3b": {
+        "kappas": "number_list",
+        "p(T<1)": "number_list",
+        "t_with_68": "number_list"
+    },
+    "5b": {
+        "coverage_calib": "file"
+    }
+}

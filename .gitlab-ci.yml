@@ -1,0 +1,12 @@
+image: python:3.12.16
+
+check-submission:
+  timeout: 15m
+  script:
+    - python -m pip install -r requirements.txt
+    - python check_submission.py
+  artifacts:
+    when: always
+    paths:
+      - results/results.json
+    expire_in: 30 days
