@@ -1,32 +1,38 @@
 {
-    "1a": {
-        "gamma": "number",
-        "sigma_gamma": "number",
-        "chi2": "number",
-        "ndof": "integer",
-        "p-value": "number"
-    },
-    "1b": {
-        "A": "file",
-        "B": "file",
-        "C": "file"
-    },
-    "1c": {
-        "lower": "number",
-        "upper": "number"
-    },
-    "2": {
-        "error_vs_k": "file"
-    },
-    "3a": {
-        "coverage": "file"
-    },
-    "3b": {
-        "kappas": "number_list",
-        "p(T<1)": "number_list",
-        "t_with_68": "number_list"
-    },
-    "5b": {
-        "coverage_calib": "file"
-    }
+  "1a": {
+    "gamma": 0.0,
+    "sigma_gamma": 0.0,
+    "chi2": 0.0,
+    "ndof": 0,
+    "p-value": 0.0
+  },
+  "1b": {
+    "A": "results/channelA.pdf",
+    "B": "results/channelB.pdf",
+    "C": "results/channelC.pdf"
+  },
+  "1c": {
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  "2": {
+    "error_vs_k": "results/errors.pdf"
+  },
+  "3a": {
+    "coverage": "results/coverage1.pdf"
+  },
+  "3b": {
+    "kappas": [
+      0.0
+    ],
+    "p(T<1)": [
+      0.0
+    ],
+    "t_with_68": [
+      0.0
+    ]
+  },
+  "5b": {
+    "coverage_calib": "results/coverage2.pdf"
+  }
 }
